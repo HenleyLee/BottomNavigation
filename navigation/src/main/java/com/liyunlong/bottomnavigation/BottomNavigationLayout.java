@@ -43,7 +43,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.appcompat.content.res.AppCompatResources;
-import androidx.appcompat.widget.TintTypedArray;
 import androidx.appcompat.widget.TooltipCompat;
 import androidx.core.graphics.drawable.DrawableCompat;
 import androidx.core.view.PointerIconCompat;
@@ -101,6 +100,7 @@ public class BottomNavigationLayout extends LinearLayout {
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     public BottomNavigationLayout(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
+        super.setOrientation(HORIZONTAL);
 
         int defaultIconSize = getResources().getDimensionPixelSize(R.dimen.bottom_navigation_icon_size);
         int defaultTextSize = getResources().getDimensionPixelSize(R.dimen.bottom_navigation_active_text_size);
@@ -968,27 +968,6 @@ public class BottomNavigationLayout extends LinearLayout {
         void setAutoRefresh(boolean autoRefresh) {
             this.autoRefresh = autoRefresh;
         }
-    }
-
-    public static final class NavigationItem extends View {
-
-        public final CharSequence text;
-        public final Drawable icon;
-        public final int customLayout;
-
-        public NavigationItem(Context context) {
-            this(context, null);
-        }
-
-        public NavigationItem(Context context, AttributeSet attrs) {
-            super(context, attrs);
-            final TintTypedArray a = TintTypedArray.obtainStyledAttributes(context, attrs, R.styleable.NavigationItem);
-            text = a.getText(R.styleable.NavigationItem_android_text);
-            icon = a.getDrawable(R.styleable.NavigationItem_android_icon);
-            customLayout = a.getResourceId(R.styleable.NavigationItem_android_layout, 0);
-            a.recycle();
-        }
-
     }
 
     /**
