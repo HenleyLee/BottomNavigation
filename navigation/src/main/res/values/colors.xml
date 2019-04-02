@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="navigation_ripple_color">#1f000000</color>
+    <color name="navigation_text_color_normal">#99000000</color>
+    <color name="navigation_text_color_selected">#FF008577</color>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.BottomNavigationLayout" parent="android:Widget">
+        <item name="elevation">@dimen/bottom_navigation_elevation</item>
+        <item name="navigationTextAppearance">?attr/textAppearanceCaption</item>
+        <item name="navigationTextColor">@color/navigation_text_color_normal</item>
+        <item name="navigationSelectedTextColor">@color/navigation_text_color_selected</item>
+        <item name="navigationIconTint">@color/navigation_icon_tint</item>
+        <item name="navigationRippleColor">@color/navigation_ripple_color</item>
+        <item name="navigationBackground">?attr/selectableItemBackgroundBorderless</item>
+        <item name="navigationUnboundedRipple">true</item>
+    </style>
+
+</resources>

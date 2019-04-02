@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BottomNavigationLayout">
+        <attr name="navigationBackground" format="reference" />
+        <attr name="navigationTextAppearance" format="reference" />
+        <attr name="navigationTextSize" format="dimension|reference" />
+        <attr name="navigationTextColor" format="color|reference" />
+        <attr name="navigationSelectedTextColor" format="color|reference" />
+        <attr name="navigationPaddingStart" format="dimension|reference" />
+        <attr name="navigationPaddingTop" format="dimension|reference" />
+        <attr name="navigationPaddingEnd" format="dimension|reference" />
+        <attr name="navigationPaddingBottom" format="dimension|reference" />
+        <attr name="navigationPadding" format="dimension|reference" />
+        <attr name="navigationIconTint" format="color|reference" />
+        <attr name="navigationIconSize" format="dimension|reference" />
+        <attr name="navigationIconTintMode">
+            <enum name="src_over" value="3" />
+            <enum name="src_in" value="5" />
+            <enum name="src_atop" value="9" />
+            <enum name="multiply" value="14" />
+            <enum name="screen" value="15" />
+            <enum name="add" value="16" />
+        </attr>
+        <attr name="navigationRippleColor" format="color|reference" />
+        <attr name="navigationUnboundedRipple" format="boolean" />
+        <attr name="elevation" />
+    </declare-styleable>
+
+    <declare-styleable name="NavigationItem">
+        <attr name="android:text" />
+        <attr name="android:icon" />
+        <attr name="android:layout" />
+    </declare-styleable>
+
+</resources>
