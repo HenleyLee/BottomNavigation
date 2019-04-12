@@ -1,6 +1,10 @@
 # BottomNavigation —— 自定义底部导航栏
 使用方式类似于 `TabLayout`，可以关联 `ViewPager`。
 
+## APK Demo ##
+
+下载 [APK-Demo](https://github.com/HenleyLee/BottomNavigation/raw/master/app/app-release.apk)
+
 ## 使用方法 ##
  - 使用方法一：
 ```java
