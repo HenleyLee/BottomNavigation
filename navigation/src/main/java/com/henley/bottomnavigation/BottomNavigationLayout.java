@@ -54,7 +54,7 @@ import androidx.viewpager.widget.ViewPager;
 /**
  * 底部导航栏
  *
- * @author LiYunlong
+ * @author Henley
  * @date 2019/4/1 11:03
  */
 public class BottomNavigationLayout extends LinearLayout {

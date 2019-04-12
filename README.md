@@ -84,7 +84,7 @@ public class MainPagerAdapter extends FragmentPagerAdapter implements BottomNavi
 
  - 使用方法三：
 ```xml
-<com.liyunlong.bottomnavigation.BottomNavigationLayout
+<com.henley.bottomnavigation.BottomNavigationLayout
     android:id="@+id/navigation_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -94,23 +94,23 @@ public class MainPagerAdapter extends FragmentPagerAdapter implements BottomNavi
     app:navigationIconSize="24dp"
     app:navigationTextSize="11sp">
 
-    <com.liyunlong.bottomnavigation.NavigationItem
+    <com.henley.bottomnavigation.NavigationItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:icon="@drawable/ic_home_black_24dp"
         android:text="@string/title_home" />
 
-    <com.liyunlong.bottomnavigation.NavigationItem
+    <com.henley.bottomnavigation.NavigationItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:icon="@drawable/ic_dashboard_black_24dp"
         android:text="@string/title_dashboard" />
 
-    <com.liyunlong.bottomnavigation.NavigationItem
+    <com.henley.bottomnavigation.NavigationItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:icon="@drawable/ic_notifications_black_24dp"
         android:text="@string/title_notifications" />
 
-</com.liyunlong.bottomnavigation.BottomNavigationLayout>
+</com.henley.bottomnavigation.BottomNavigationLayout>
 ```

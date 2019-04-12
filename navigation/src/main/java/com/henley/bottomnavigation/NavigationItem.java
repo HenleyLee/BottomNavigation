@@ -10,7 +10,7 @@ import androidx.appcompat.widget.TintTypedArray;
 /**
  * 导航栏Item
  *
- * @author LiYunlong
+ * @author Henley
  * @date 2019/4/2 15:15
  */
 public class NavigationItem extends View {
