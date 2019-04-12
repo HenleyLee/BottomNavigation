@@ -1,4 +1,4 @@
-package com.liyunlong.bottomnavigation.demo;
+package com.henley.bottomnavigation.demo;
 
 import org.junit.Test;
 

@@ -1,9 +1,9 @@
-package com.liyunlong.bottomnavigation.demo;
+package com.henley.bottomnavigation.demo;
 
 import android.os.Bundle;
 import android.util.Log;
 
-import com.liyunlong.bottomnavigation.BottomNavigationLayout;
+import com.henley.bottomnavigation.BottomNavigationLayout;
 
 import java.util.ArrayList;
 import java.util.List;

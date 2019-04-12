@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_weight="1" />
 
-    <com.liyunlong.bottomnavigation.BottomNavigationLayout
+    <com.henley.bottomnavigation.BottomNavigationLayout
         android:id="@+id/navigation_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,6 +29,6 @@
         app:navigationIconSize="24dp"
         app:navigationTextSize="11sp">
 
-    </com.liyunlong.bottomnavigation.BottomNavigationLayout>
+    </com.henley.bottomnavigation.BottomNavigationLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

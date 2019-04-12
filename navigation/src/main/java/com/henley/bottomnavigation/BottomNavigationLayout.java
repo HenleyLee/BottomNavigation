@@ -1,4 +1,4 @@
-package com.liyunlong.bottomnavigation;
+package com.henley.bottomnavigation;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;

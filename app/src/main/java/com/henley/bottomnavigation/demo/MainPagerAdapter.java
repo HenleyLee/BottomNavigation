@@ -1,6 +1,6 @@
-package com.liyunlong.bottomnavigation.demo;
+package com.henley.bottomnavigation.demo;
 
-import com.liyunlong.bottomnavigation.BottomNavigationLayout;
+import com.henley.bottomnavigation.BottomNavigationLayout;
 
 import java.util.List;
 
