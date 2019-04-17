@@ -1,14 +1,16 @@
 apply plugin: 'com.android.library'
 
-android {
-    compileSdkVersion 28
-    defaultConfig {
-        minSdkVersion 15
-        targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
+def config = rootProject.ext.android // 配置
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+android {
+    compileSdkVersion config.compileSdkVersion
+    buildToolsVersion config.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion config.minSdkVersion
+        targetSdkVersion config.targetSdkVersion
+        versionCode config.versionCode
+        versionName config.versionName
     }
 
     buildTypes {
@@ -26,3 +28,5 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0-alpha04'
     implementation 'com.google.android.material:material:1.1.0-alpha05'
 }
+
+apply from: '../gradle/bintray.gradle'
