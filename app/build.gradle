@@ -47,7 +47,7 @@ dependencies {
     implementation 'androidx.vectordrawable:vectordrawable:1.1.0-alpha01'
     implementation 'com.google.android.material:material:1.1.0-alpha05'
 //    implementation project(':navigation')
-    implementation 'com.henley.bottomnavigation:bottomnavigation:1.0.0'
+    implementation 'com.henley.android:bottomnavigation:1.0.0'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0-alpha03'

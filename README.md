@@ -5,7 +5,7 @@
 ### Gradle ###
 ```gradle
 dependencies {
-    implementation 'com.henley.bottomnavigation:bottomnavigation:1.0.0'
+    implementation 'com.henley.android:bottomnavigation:1.0.0'
 }
 ```
 
