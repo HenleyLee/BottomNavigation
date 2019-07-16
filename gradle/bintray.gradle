@@ -21,7 +21,7 @@ publish {
     userOrg = 'henleylee'
     groupId = 'com.henley.android'
     artifactId = 'bottomnavigation'
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.1'
     uploadName = 'BottomNavigation'
     desc = 'Android 自定义底部导航栏。'
     website = siteUrl
